@@ -1,0 +1,21 @@
+GetENV AUPath >NIL:
+
+; from AmiUpdate_DEU tnx :-)
+
+; Remove the polish catalog drawer inside the AmiUpdate drawer (system component catalogs shall be located in SYS:Locale)
+IF EXISTS "$AUPath/catalogs/Polish"
+	Delete >NIL: ALL "$AUPath/catalogs/polish"
+ENDIF
+
+
+; AmiUpdate is now part of the os4 system and installed in SYS:System.
+; As such the prefs are located in SYS:Prefs and the locale files shall be located in SYS:Locale
+CopyStore AmiUpdate/catalogs/polish/AmiUpdate.catalog SYS:locale/catalogs/polish
+CopyStore AmiUpdate/catalogs/polish/Prefs_Updates.catalog SYS:locale/catalogs/polish
+
+; Also copy the sources - create drawer first
+IF NOT EXISTS "$AUPath/locale_source"
+	MakeDir >NIL: "$AUPath/locale_source/polish" ALL
+ENDIF
+
+Copy AmiUpdate/locale_source/#?.ct "$AUPath/locale_source/Polish" ALL

@@ -1,0 +1,849 @@
+## version $VER: AmiUpdate.catalog 2.54 (20.02.2024)
+## codeset 5
+## language polish
+## chunk AUTH Translated by smarkusg
+;
+MSG_HINTINFO_SCAN
+Wyszukanie dostêpnych aktualizacji na serwerze
+; Scan for available updates
+;
+MSG_HINTINFO_ABORTSCAN
+Przerwanie bie¿±cego szukania
+; Abort the current update scan
+;
+MSG_HINTINFO_UPDATELIST
+Dostêpne aktualizacje
+; Available updates
+;
+MSG_HINTINFO_UPDATE
+Pobierz wybrane aktualizacje
+; Fetch selected updates
+;
+MSG_HINTINFO_ALLNONE
+Zaznacz lub usuñ zaznaczenie wszystkich aktualizacji
+; Select all or none of the above updates
+;
+MSG_HINTINFO_INFO
+Wy¶wietla informacje o wybranych aktualizacjach
+; Show information of the selected update
+;
+MSG_HINTINFO_UPDATETO
+Aktualizacja do
+; Update to
+;
+MSG_HINTINFO_DOWNLOADED
+Ta aktualizacja zosta³a pomy¶lnie pobrana,\n
+; This update was downloaded successfully,\n
+;
+MSG_HINTINFO_INSTALLED
+i zosta³a automatycznie zainstalowana.
+; and it was automatically installed.
+;
+MSG_HINTINFO_STORED
+i zosta³ zapisany do przysz³ego wgl±du.
+; and it was stored for your attention.
+;
+MSG_HINTINFO_STORE_FAILED
+ale zapisanie aktualizacji rówie¿ nie powiod³o siê.
+; but storing the update also failed.
+;
+MSG_HINTINFO_NO_SCRIPT
+Ta aktualizacja nie zosta³a zainstalowana z powodu braku skryptu AutoInstall.
+; The update was not installed due to a missing AutoInstall script.
+;
+MSG_HINTINFO_WARNING
+Ta aktualizacja nie zako³czy³a siê pe³nym powodzeniem.\n
+; This update was not entirely successful.\n
+;
+MSG_HINTINFO_HASSCRIPT
+Skrypt instalacyjny napotka³ b³±d.
+; The installation script encountered an error.
+;
+MSG_HINTINFO_PGPFAILED
+Deszyfrowanie PGP nie powiod³o siê, ale
+; PGP decryption failed, but
+;
+MSG_HINTINFO_UNARCFAILED
+Rozpakowywanie nie powiod³o siê, ale
+; Unpacking failed, but
+;
+MSG_HINTINFO_FAILED
+Ta aktualizacja nie powiod³a siê z powodu b³êdu podczas \ntransferu. Mo¿lwe,ze  powiedzie siê je¿eli i spróbujesz ponownie.
+; This update failed due to a error in the\ntransfer. It may succeed if you try again.
+;
+MSG_HINTINFO_ABORTED
+Transfer zosta³ rêcznie przerwany.
+; The transfer was manually aborted.
+;
+MSG_HINTINFO_NOPASSPHRASE
+Nie podano has³a PGP.
+; No correct PGP passphrase was supplied.
+;
+MSG_BUTTON_OK
+OK
+; OK
+;
+MSG_BUTTON_CANCEL
+_Anulacja
+; _Cancel
+;
+MSG_BUTTON_SCAN
+_Sprawdz
+; S_can
+;
+MSG_BUTTON_UPDATE
+_Aktualizacja
+; _Update
+;
+MSG_BUTTON_ABORT
+_Przerwij
+; Abort
+;
+MSG_BUTTON_INFO
+_Informacja
+; _Info
+;
+MSG_BUTTON_THANKS
+Dziêkujê
+; Thanks
+;
+MSG_BUTTONS_YESNO
+Tak|Nie
+; Yes|No
+;
+MSG_BUTTON_SELECTALL
+_Zaznacz wszystko
+; _Select All
+;
+MSG_BUTTON_SELECTNONE
+_Brak zaznaczenia
+; _Select None
+;
+MSG_BUTTON_CONTINUE
+Kontynuuj
+; Continue
+;
+MSG_BUTTON_CANCEL_TRANSFER
+Anuluj transfer
+; Cancel Transfer
+;
+MSG_BUTTON_USE
+_U¿yj
+; _Use
+;
+MSG_BUTTON_SAVE
+_Zapisz
+; _Save
+;
+MSG_BUTTON_CONNECT
+_Po³±cz
+; _Connect
+;
+MSG_BUTTON_EDIT
+_Edytuj
+; _Edit
+;
+MSG_BUTTON_ADD
+_Dodaj
+; _Add
+;
+MSG_BUTTON_REMOVE
+_Usuñ
+; Remo_ve
+;
+MSG_BUTTON_REMOVE_ALL
+_Usuñ _Wszystko
+; Remove _All
+;
+MSG_BUTTONS_OKCANCEL
+_OK|_Anuluj
+; _OK|_Cancel
+;
+MSG_BUTTON_ROLLBACK
+_Wycofanie zmian
+; _Rollback
+;
+MSG_BUTTON_SEARCH
+_Wyszukaj
+; _Search
+;
+MSG_BUTTON_NEXT
+Nastêpne _>
+; Next _>
+;
+MSG_BUTTON_PREV
+_< Poprzednie
+; _< Previous
+;
+MSG_BUTTON_CLEANUP
+_Wyczyszczenie...
+; _Purge...
+;
+MSG_BUTTONS_REBOOT_DEAMON
+_Anuluj|Restartuje teraz| Przypomnij pó¼niej
+; _Cancel|Reboot now|Remind me _later
+;
+MSG_LABEL_ACTIVITY
+Czynno¶æ
+; Activity
+;
+MSG_LABEL_DOWNLOADING
+¦ci±ganie:   
+; Downloading:   
+;
+MSG_LABEL_FILESIZE
+Rozmiar pliku:   
+; File size:   
+;
+MSG_LABEL_ENTRIES_DIFFERENT
+Dwa wpisy nie by³y takie same
+; The two entries were different
+;
+MSG_LABEL_VERIFY_PASSPHRASE
+Proszê ponownie zweryfikowaæ swoje has³o
+; Please verify your passphrase again
+;
+MSG_LABEL_PASSPHRASE_DEF1
+Zostaniesz poproszony o potwierdzenie
+; Here you will be asked to confirm your
+;
+MSG_LABEL_PASSPHRASE_DEF2
+Has³oo weryfikacyjne PGP dwa razy.
+; PGP passphrase twice for verification.
+;
+MSG_LABEL_ENTER_PASSPHRASE
+Wprowad¼ has³o
+; Enter passphrase
+;
+MSG_LABEL_ENTER_AGAIN
+Wprowadz ponownie
+; Enter again
+;
+MSG_LABEL_REMOTE_FILE
+Plik zdalny
+; Remote file
+;
+MSG_LABEL_LOCAL_FILE
+Plik lokalny
+; Local file
+;
+MSG_LABEL_DEPENDENCIES
+Wymienione zale¼no¶ci
+; Listed dependencies
+;
+MSG_LABEL_LOGIN_DETAILS
+Wprowad¼ dane logowania dla:\n
+; Enter the login details for:\n
+;
+MSG_LABEL_USERNAME
+_Nazwa U¿ytkownika
+; _Username
+;
+MSG_LABEL_PASSWORD
+_Has³o
+; _Password
+;
+MSG_LABEL_OFFLINE_RESOURCE
+Zasób offline: %s
+; Offline resource: %s
+;
+MSG_LABEL_STARTED
+Uruchomiono w: %s %s o %s
+; Started on: %s %s at %s
+;
+MSG_LABEL_PURGE_WHAT
+Usuñ wszystkie daty, które s±:
+; Remove all dates that are:
+;
+MSG_LABEL_ROLLBACK_INFO
+Przywrócone zosta³y nastêpij±ce pliki:
+; The following files will be restored:
+;
+MSG_LABEL_ROLLBACK_SEARCH
+Znaleziono nastêpuj±ce dopasowania:
+; The following matches were found:
+;
+MSG_CHOOSER_1WEEK
+starszy ni¿ tydzieñ
+; older than one week
+;
+MSG_CHOOSER_1MONTH
+starszy ni¿ miesi±c
+; older than one month
+;
+MSG_CHOOSER_6MONTHS
+starszy ni¿ sze¶æ miesiêcy
+; older than six months
+;
+MSG_CHOOSER_1YEAR
+starszy ni¿ rok
+; older than one year
+;
+MSG_STATUS_READY
+Ready...
+; Ready...
+;
+MSG_STATUS_LOCATING_AUTOINSTALL
+Lokalizowanie skryptu instalacyjnego....
+; Locating installation script....
+;
+MSG_STATUS_FILESTORED
+Plik przechowywany w oczekiwaniu na dzia³anie u¿ytkownika
+; File stored awaiting user action
+;
+MSG_STATUS_AUTOINSTALL_DETECTED
+Wykryto skrypt AutoInstall, przygotowuje siê do wykonania...
+; AutoInstall script detected, preparing to execute...
+;
+MSG_STATUS_AUTOINSTALL_SUCCESS
+Autoinstalacja zakoñczona pomy¶lnie
+; AutoInstall successfully completed
+;
+MSG_STATUS_SCANNING_ALL
+Szukanie dostêpnych aktualizacji...
+; Scanning for available updates...
+;
+MSG_STATUS_SYNC_WITH_SERVER
+Synchronizacja z serwerem: %s...
+; Synchronising with server: %s...
+;
+MSG_STATUS_SYNC_FAILED
+Synchronizacja z serwerem nie powiod³a siê
+; Synchronisation with server failed
+;
+MSG_STATUS_SCAN_COMPLETE
+Wyszukanie  zakoñczone, znaleziono %ld odpowiednich aktualizacji
+; Scan complete, found %ld applicable update(s)
+;
+MSG_STATUS_NO_UPDATES
+Brak dostêpnych aktualizacji
+; No updates available
+;
+MSG_STATUS_FETCHING_UPDATES
+Pobieranie aktualizacji: %s (%ld z %ld)
+; Fetching update: %s (%ld of %ld)
+;
+MSG_STATUS_NO_UPDATES_SELECTED
+Brak wybranych aktualizacji!
+; No updates selected!
+;
+MSG_STATUS_UNARCHIVING_UPDATE
+Przywracanie archiwizacji...
+; Unarchiving update...
+;
+MSG_STATUS_UPDATE_COMPLETE
+Aktualizacja zakoñczona
+; Update complete
+;
+MSG_STATUS_ARCHIVE_SAVE_FAILED
+Zapisywanie archiwum nie powiod³o siê: %s
+; Saving of archive failed: %s
+;
+MSG_STATUS_CONNECTING_TO
+Nawi±zano po³±czenie z: %s (%s) na porcie %ld..
+; Connecting to: %s (%s) on port %ld..
+;
+MSG_STATUS_RESOLVE_FAILED
+Nie uda³oo siê nale¶æ nazwy  adresu serwera
+; Failed to resolve server address
+;
+MSG_STATUS_LOGIN_CANCELLED
+Logowanie anulowane, aktualizacja przerwana
+; Login cancelled, updating aborted
+;
+MSG_STATUS_RETRYING
+Ponowna próba %s (%ld of %ld)
+; Retrying %s (%ld of %ld)
+;
+MSG_STATUS_DOWNLOADING
+        Pobieranie %s...
+;       Downloading %s...
+;
+MSG_STATUS_DOWNLOADING_FROM
+Pobieranie z %s
+; Downloading from %s
+;
+MSG_STATUS_LOGGINGIN
+Logowanie do...
+; Now logging in...
+;
+MSG_STATUS_REQUESTING
+¯±danie /%s
+; Requesting /%s
+;
+MSG_STATUS_OFFLINE
+Dostêp do sieci niedostêpny
+; Network currently offline.
+;
+MSG_TITLE_INFOWIN
+Informacje dla: %s
+; Information for: %s
+;
+MSG_TITLE_LOGONWIN
+¯±danie logowania
+; Logon Request
+;
+MSG_TITLE_MAPMANAGER
+Mened¿er mapowania
+; Mapping Manager
+;
+MSG_TITLE_COMPATIBILITY
+Aktualnie zainstalowane kompatybilne aplikacje
+; Currently installed compatible applications
+;
+MSG_TITLE_IGNOREMANAGER
+Lista ignorowanych aktualizacji
+; Ignored updates
+;
+MSG_TITLE_ROLLBACK_INFO
+Informacje o wycofaniu
+; RollBack information
+;
+MSG_TITLE_ROLLBACK_SEARCH
+Wynik wyszukiwania
+; Search results
+;
+MSG_REQ_NOAUTOINSTALL
+\33c\Nie mo¿na kontynuowaæ automatycznej instalacji tej aktualizacji\n\n\33c Mo¿liwa jest jednak rêczna instalacja z  '%s'\n\33cponiewa¼ plik akcji instalacji zostanie usuniêty podczas zamykania ¿±dania
+; \33cAutomatic installation of this application update cannot proceed\n\n\33cYou can install it manually from '%s'\n\33cwhich will be deleted when you clear this requester
+;
+MSG_REQ_SAVETORAM
+\33cFile: \33i%s\n\n\33n\33cNie mo¿na rozpakowaæ go automatycznie\nCzy chcesz zapisaæ ten plik w RAM:?
+; \33cFile: \33i%s\n\n\33n\33cCannot unpack this for you\nWould you like to save this file to RAM: ?
+;
+MSG_REQ_NEWAMIUPDATE
+; \33cNowa wersja AmiUpdate jest dostêpna do pobrania!\nZainstalowaæ now± wersjê?\n\nZaktualizowana wersja: %ld.%ld Nowa to:  %ld.%ld
+; \33cA newer version is available for download\nWould you like to fetch and install it?\n\nInstalled: %ld.%ld  Update: %ld.%ld
+;
+MSG_REQ_RESTART_AMIUPDATE
+ \33cAmiUpdate zostanie teraz ponownie uruchomione \n w celu za³adowania nowej wersji
+; \33cAmiUpdate will now restart\nto run the new version.
+;
+MSG_REQ_DATABASE_PARSEERROR
+\nB³±d analizy pliku bazy danych\n\nLinia %ld: %s\n
+; \nError parsing database file\n\nLine %ld: %s\n
+;
+MSG_REQ_UPDATES_WAITING
+\33cIstnieje %ld nowych aktualizacji oczekuj±cych na zainstalowanie.\n\n\33cNaci¶nij  "Poka¿", aby wy¶wietliæ pe³n± listê.
+; \33cThere are %ld new updates waiting to be installed.\n\n\33cClick 'View' for a complete list
+;
+MSG_REQ_BUTTONS_UPDATES_WAITING
+View|Later
+; View|Later
+;
+MSG_REQ_CANCEL_UPDATE
+\33cBieÅ¼Ä…ca aktualizacja zosta³a anulowana\n\n Czy chcesz anulowaæ wszystkie aktualizacje?
+; \33cThe current update has been cancelled\n\nDo you wish to cancel all updates?
+;
+MSG_REQ_BUTTONS_CANCEL_UPDATE
+Nie|Tak
+; No|Yes
+;
+MSG_REQ_NO_NETWORK
+Ostrze¿enie, nie wykryto  po³±czenia  sieciowego. \n\nPo³±czenie z serwerem zosta³o przerwane.\n
+; No active network connections were found. \n\nThe connection to the server has been aborted.\n
+;
+MSG_REQ_RESOLVE_FAILED
+Po³±czenie z %s nie powiod³oo siê.\n\nMo¿e wystêpowaæ problem z po³±czeniem internetowym.
+; Connection to %s failed.\n\nThere may be a problem with your Internet connection.
+;
+MSG_REQ_WORKING_OFFLINE
+Ostatnia próba po³±czenia z Internetem nie powiod³a siê, poniewa¿ nie wykryto aktywnych po³±czeniñ sieciowych.\n
+; The last attempt to connect to the Internet failed as there were no active network connections detected.\n
+;
+MSG_REQ_AUTOINSTALL_FAILED
+\33cLista zawiera jedn± lub wiêcej aktualizacji, których nie mo¿na zainstalowaæ automatycznie\n\33c Zosta³a ona rozpakowana i zapisana w folderze '%s'\n\33cZainstaluj aktualizacje rêcznie z tego miejsca
+; \33cAt least one update could not be automatically installed\n\33c It has been unpacked and stored in '%s'\n\33cInstall the update(s) manually from there
+;
+MSG_REQ_NO_DOWNLOAD
+\33cArchiwum: %s\n\nPobranie tej aktualizacji nie by³oo mo¿liwe\nWyst±pi³ problem z adresem URL.\n\n%s
+; \33cArchive: %s\n\nDownloading this update was not possible\nA problem with the URL was encountered.\n\n%s
+;
+MSG_REQ_SELECT_PATH_TO
+Wybierz ¶cie¿kê do  %s
+; Select path to %s
+;
+MSG_REQ_CHANGES_LOST
+\33c Wprowadzone zmiany zostan± utracone\n\nCzy naprawdê chcesz wyj¶æ?
+; \33cThe changes made will be lost\n\nDo you really want to quit?
+;
+MSG_REQ_BUTTONS_CHANGES_LOST
+Nie|OK
+; No|OK
+;
+MSG_REQ_CHECKING_VERSION
+Sprawdzanie nowych aktualizacji AmiUpdate... 
+;  Checking for new version... 
+;
+MSG_REQ_INSTALL_EARLIER_VERSION
+Czy na pewno chcesz zainstalowaæ poprzedni± wersjê?
+; Do you really want to install this earlier version?
+;
+MSG_REQ_RESTORED_OK
+zosta³o pomy¶lnie przywrócony
+;  was successfully restored
+;
+MSG_REQ_ERROR_RESTORING
+Wyst±pi³ b³±d podczas pró³by przywrócenia tego komponentu
+; An error occurred restoring this component
+;
+MSG_REQ_CONFIRM_ROLLBACK_DATE
+\3cc\Zamierzasz przywróciæ  system do stanu:\n\n %s %s\n\n  Wszystkie poprzednie aktualizjê wraz z datami zostan± odwrócone.\n\nCzy na pewno chcesz to zrobiæ?
+; \33cYou are about to set your system back to:\n\n %s %s\n\n All previous updates up to, and including that date, will be reversed.\n\nAre you sure you want to do this? 
+;
+MSG_REQ_BUTTONS_CONFIRM_DATE
+Kontynuuj|_Anuluj
+; Continue|_Cancel
+;
+MSG_REQ_ROLLBACK_WITH_ERRORS
+Wycofanie  zakoñczony, ale wyst±pi³yy b³edy
+; RollBack complete, but some errors occurred
+;
+MSG_REQ_ROLLBACK_FATAL_ERROR
+Procedura wycofania przerwana z powodu b³êdu
+; RollBack procedure aborted due to fatal error
+;
+MSG_REQ_ROLLBACK_NO_ERRORS
+Procedura wycofania  zakoñczona pomy¶lnie!
+; RollBack completed successfully without errors
+;
+MSG_REQ_ROLLBACK_REMOVED
+Wybrana mo¿liwo¶ci wycofania zosta³a usuniêta
+; The selected Rollback opportunity has been removed
+;
+MSG_REQ_ROLLBACK_REMOVED_ERROR
+Wyst±pi³ problem z usuniêciem wybranej mo¿liwo¶ci wycofania
+; There was a problem removing the selected Rollback opportunity
+;
+MSG_REQ_CONFIRM_OPP_REMOVAL
+Czy zamierzasz usun±æ moÅ¼liwo¶æ wycofania?\n\n\33cKontynuowaæ?
+; You are about to remove a rollback opportunity\n\n\33cProceed?
+;
+MSG_REQ_CONFIRM_DATE_REMOVAL
+\33cZamierzasz usun±æ datê wycofania.\n\33c Wszystkie mo¿liwo¶ci zwi±zane z t± dat± zostan± utracone.\n\n\33cKontynuowaæ?
+; \33cYou are about to remove a rollback date.\n\33cAll opportunities on this date will be lost.\n\n\33cProceed?
+;
+MSG_REQ_PURGE_CONFIRM
+Obecnie dostêpnych jest %ld dat gotowych do usuniêcia.\nCzy na pewno chcesz, aby zosta³y usuniête?
+; There are currently %ld date(s) ready to be purged.\n\nDo you really want these removed?\n\n
+;
+MSG_REQ_OPERATION_WITH_ERRORS
+Operacja nie zosta³a zakoñczona bez b³êdów
+; The operation did not complete without errors
+;
+MSG_REQ_ROLLBACK_DATE_OK
+Usuniêto datê wycofania
+; Rollback date removed
+;
+MSG_REQ_ENTER_PATTERN
+Wprowad¼ wzorzec do dopasowania
+; Enter a pattern to match with
+;
+MSG_REQ_RESET_REQUIRED
+\n\33c\Musisz wykonaæ %s, aby \n\33czmiany z ostatniej sesji aktualizacji zosta³y zastosowane.\n\n
+; \n\33cYou need to perform a %s so that the\n\33cchanges from the last update session take effect\n\n
+;
+MSG_REQ_SOFT_RESET
+Miêkki restart
+; Soft Reboot
+;
+MSG_REQ_HARD_RESET
+Twardy restart
+; Hard Reset
+;
+MSG_REQ_REBOOT_IN
+System wykonuje %s za %ld sekund
+; System is performing a %s in %ld seconds
+;
+MSG_REQ_PURGE_ROLLBACK
+Usuniêcie dat wycofania  jest dzia³aniem nieodwracalnym. Po usuniêciu \ntych dat nie mo¿na ich ponownie przywróciæ. \n\nPo zakoñczeniu tego czyszczenia nie bêdzie mo¿liwe wycofania ¿adnej z usuniêtych dat.\n\n
+; Removing RollBack dates is a permanent action. Once these\ndates have been removed, you cannot get them back again.\n\nRolling back to any of the dates removed will not be possible\nafter this purge completes.\n\n
+;
+MSG_REQ_PURGE_FAULTS
+Wyst±pi³ problem z datami %ld wycofania, których \nnie mo¿na usun±æ. Mog± one byæ chronione przed usuniêciem lub u¿ywane przez inny program.
+; There was a problem with %ld RollBack dates\nwhich could not be removed. They may be protected\nfrom deletion, or in use by another program.
+;
+MSG_REQ_PURGE_NOTHING
+Prawdopodobnie operacja zosta³a wykonana bez okre¶enia, który punkt ma zosta³ usuniêy, lub nie by³o mo¿iwych do wybrania punktów przywracania.
+; Nothing will be purged as there are currently\nno RollBack dates which match this criteria.
+;
+MSG_REQ_RESTORE_SCRIPT
+Powi±zany skrypt wycofania wybranego elementu\nnie zosta³ znaleziony w podanej lokalizacji.Funkcja wycofania  nie mo¿e przywróciæ tego elementu.
+; The associated restore script for the selected item\nwas not found in the specified location.\nRollBack is unable to restore this item.
+;
+MSG_DESCRIPTION_AVAILABLE
+jest dostêpny
+; is available
+;
+MSG_DESCRIPTION_MANUAL
+(Pobierz i zainstaluj rêcznie)
+; (Download and Install manually)
+;
+MSG_DESCRIPTION_FILESYSTEM
+U¿yto daty systemu plików do sprawdzenia
+; Used filesystem date for check
+;
+MSG_DESCRIPTION_NOTFOUND
+Nie znaleziono w ¶cie¿ce
+; Not found on path
+;
+MSG_DESCRIPTION_DETERMINED_BY_DATE
+okre¶lony przez datê
+; determined by date
+;
+MSG_VER_MISSING
+Brakuj±cy lub nieprawid³owy ci±g wersji
+; Missing or incorrect version string
+;
+MSG_XMLINIT_FAILED
+Inicjalizacja obiektu XML nie powiod³a siê
+; Failed to initialise XML object
+;
+MSG_ERROR_NOERROR
+Brak b³êdu
+; No Error
+;
+MSG_ERROR_NO_LOGIN_DETAILS
+Brak danych logowania
+; No logon details supplied
+;
+MSG_ERROR_CONNECTION_FAILED
+Po³±czenie z serwerem nie powiod³oo siê
+; Connection to server failed
+;
+MSG_ERROR_SAVE_TARGET_FAILED
+Zapisywanie pliku docelowego nie powiod³oo siê
+; Saving target file failed
+;
+MSG_ERROR_TARGET_TRUNCATED
+Obciêty-Uszkodzony plik docelowy
+; Target file truncated
+;
+MSG_ERROR_INCORRECT_PROTOCOL
+Nieprawid³owy protokó³
+; Incorrect protocol
+;
+MSG_ERROR_TRANSFER_FAILED
+Transfer nie powiód³ siê
+; Transfer failed
+;
+MSG_ERROR_RESOLVE_FAILED
+Nie uda³o siê rozwi±zaæ nazwy serwera
+; Failed to resolve server name
+;
+MSG_ERROR_TRANSFER_TIMEOUT
+Przekroczono limit czasu transferu
+; Transfer timeout exceeded
+;
+MSG_ERROR_NOT_FOUND_ON_PATH
+Nie znaleziono w ¶cie¿ce
+; Not found in path
+;
+MSG_REBOOT_TITLE
+Nowo zainstalowane aktualizacje
+; Newly Installed Updates
+;
+MSG_REBOOT_NONE
+Brak restartu
+; No reboot
+;
+MSG_REBOOT_SOFT
+Miêkki restart
+; A Soft reset
+;
+MSG_REBOOT_HARD
+Twardy reset
+; A Hard reset
+;
+MSG_REBOOT_REQUIRED
+%s bêdzie wymagane po zainstalowaniu tej aktualizacji
+; %s will be required after this update is installed
+;
+MSG_UPDATETYPE_COMPONENT
+Sk³adnik systemu operacyjnego
+; OS Component
+;
+MSG_UPDATETYPE_EXTENSION
+Rozszerzenie systemu operacyjnego
+; OS Extension
+;
+MSG_UPDATETYPE_APPLICATION
+Aplikacja
+; Application
+;
+MSG_COLUMNINFO_DATES
+Daty wycofania
+; RollBack dates
+;
+MSG_COLUMNINFO_NAME
+Nazwa
+; Name
+;
+MSG_COLUMNINFO_VERSION
+Wersja
+; Version
+;
+MSG_COLUMNINFO_UPDATEON
+Ostatnia aktualizacja
+; Updated on
+;
+MSG_COLUMNINFO_DESTINATION
+Miejsce docelowe
+; Destination
+;
+MSG_COLUMNINFO_PATH
+Scie¿ka
+; Path
+;
+MSG_MENU_PROJECT
+Projekt 
+; Project 
+;
+MSG_MENU_SCAN
+Wyszukaj
+; Scan
+;
+MSG_MENU_UPDATE
+Aktualizacja
+; Update
+;
+MSG_MENU_ABOUT
+O Programie...
+; About...
+;
+MSG_MENU_HELP
+Pomoc...
+; Help...
+;
+MSG_MENU_QUIT
+Wyj¶cie
+; Quit
+;
+MSG_MENU_UPDATES
+Aktualizacje
+; Updates
+;
+MSG_MENU_INFORMATION
+Informacje
+; Information
+;
+MSG_MENU_SELECTALLNONE
+Wybierz wszystko/Odznacz
+; Select All/None
+;
+MSG_MENU_IGNORE_UPDATE
+Ignoruj t± aktualizacjê
+; Ignore this update
+;
+MSG_MENU_MANAGE_IGNORES
+Zarz±dzaj ignorowanymii...
+; Manage Ignores...
+;
+MSG_MENU_ADD_MAPPING
+Dodaj mapowanie...
+; Add Mapping...
+;
+MSG_MENU_MANAGE_MAPPING
+Zarz±dzaj Mapowaniem...
+; Manage Mappings...
+;
+MSG_MENU_COMPATIBLE
+Kompatybilne Aplikacje...
+; Compatible Applications...
+;
+MSG_MENU_TOOLTYPES
+Ustawienia
+; Settings
+;
+MSG_MENU_NO_AUTO_UPDATE
+Zezwalaj na automatyczne aktualizacje
+; Allow automatic updates
+;
+MSG_MENU_VERBOSE
+Dodaj dodatkowe informacje do dziennika logowania.
+; Add extra info to Log
+;
+MSG_MENU_UNPACKTOBASEDIR
+Rozpakuj do wskazanego katalogu
+; Unpack to named directory
+;
+MSG_MENU_SERVERS
+Serwer
+; Servers
+;
+MSG_MENU_SHOW
+Deikonifikuj...
+; Uniconify...
+;
+MSG_MENU_SCAN_NOW
+Sprawd¼ aktualizacje
+; Scan for updates
+;
+MSG_MENU_OPEN_PREFS
+Otwórz preferencje...
+; Open preferences...
+;
+MSG_MENU_RUN_ROLLBACK
+Uruchom wycofania...
+; Start System RollBack...
+;
+MSG_MENU_ABORT_SCAN
+Przerwij bie¿±ce sprawdzenie
+; Abort current scan
+;
+MSG_NOTIFY_UPDATES_FOUND
+Znaleziono nowe aktualizacje dostêpne dla tego komputera. \n\nKliknij dwukrotnie tutaj lub w doku, aby wy¶wietliæ listê.
+; Updates have been found and are available for this computer.\n\nDouble-click here or the docky to see the list.
+;
+MSG_REBOOT_NOW
+Uruchom ponownie teraz
+; Reboot Now
+;
+MSG_STATUS_NO_DATABASE
+Serwer nie zwróci³ bazy danych
+; Server did not return a Database
+;
+MSG_LAST_UPDATED_ON
+Ostatnia aktualizacja:
+; Last Updated On:
+;
+MSG_REQ_ATTEMPTING_TO_DECYPT
+Pró³ba odszyfrowania %s
+; Attempting to decrypt %s
+;
+MSG_LABEL_OF
+z
+; of
+;
+MSG_REQ_REBOOT_REQUIRED
+Wymagany jest  %s-reset  przed uruchomieniem nowej wersji AmiUpdate.\n\n\33c\33b Ponowne uruchomienie nast±pi po naci¶niêciu przycisku %s.
+; A %s-reset is required before running the new version of AmiUpdate.\n\n\33c\33bThe reboot will happen after pressing %s.
+;
+MSG_SOFT
+miêkki
+; soft
+;
+MSG_HARD
+twardy
+; hard
+;
+MSG_TITLE_PROGRESS
+Postêp
+; Progress
+;
+MSG_REQ_FAILED_TO_DELETE
+Nie uda³o siê usun±æ pliku:\n%s
+; Failed to remove file:\n%s
+;
+MSG_STATUS_NO_SERVERS
+Brak dostêpnych serwerów
+; No servers available
+;
+MSG_COLUMN_PACKAGE
+Pakiet
+; Package
+;
+MSG_COLUMN_LAST_CHANGED
+Ostatnia zmiana
+; Last Changed
+;

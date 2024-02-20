@@ -1,0 +1,545 @@
+## version $VER: Prefs_Updates.catalog 53.15 (20.02.2024)
+## codeset 5
+## language polish
+## chunk AUTH Translated by smarkusg
+;
+TITLE_SCREEN_TITLE
+Ekran automatycznych aktualizacji
+; Online updates screen
+;
+TITLE_WINDOW_TITLE
+Preferencje aktualizacji automatycznych
+; Online update preferences
+;
+TITLE_REQ_ADDSERVER
+Dodaj serwer...
+; Add Server...
+;
+TITLE_REQ_SELECTDIR
+Wybierz katalog...
+; Select Directory...
+;
+TITLE_REQ_SELECTFILE
+Wybierz plik...
+; Select File...
+;
+REQ_BODY_ABOUT
+Edytor preferencji aktualizacji online\n\nWersja %ld.%ld (%s)\n\nCopyright %s
+; Online updates preferences editor\n\nVersion %ld.%ld (%s)\n\nCopyright %s
+;
+REQ_BODY_AU_START_FAILED
+Nie mo¿na automatycznie uruchomiæ AmiUpdate.\nSpróbuj uruchamiiæ go rêcznie i wyszukaj ponownie.
+; Failed to start AmiUpdate automatically,\nplease start it manually and scan again.
+;
+REQ_BODY_ADDSERVER
+Wprowad¼ nazwê nowego serwera, z którym chcesz dodaæ.
+; Enter the name of the server you wish to add.
+;
+REQ_BODY_SAVE_FAILED
+Zapisywanie pliku nie powiod³o siê, poniewa¿\n\n%s
+; Saving the file failed because\n\n%s
+;
+REQ_BUTTONS_ADDSERVER
+_Dodaj|_Anuluj
+; _Add|_Cancel
+;
+TEXT_TAB_UPDATES
+A_ktualiacje
+; U_pdates
+;
+TEXT_TAB_SERVERS
+Ser_wery
+; Ser_vers
+;
+TEXT_TAB_ROLLBACK
+_Instalacja i Wycofaj
+; _Install and RollBack
+;
+TEXT_TAB_GENERAL
+_Ogólne
+; _General
+;
+TEXT_COLUMN_ACTIVE
+Aktywny
+; Active
+;
+TEXT_COLUMN_SERVER
+Nazwa Serwera
+; Server Name
+;
+LABEL_LAYOUT_ROLLBACK
+Wycofanie
+; RollBack
+;
+LABEL_LAYOUT_INSTALL
+Instalacja Aktualizacji
+; Update Installation
+;
+LABEL_LAYOUT_LOGGING
+Zarz±dzanie dziennikiem zdarzeñ
+; Event logging
+;
+LABEL_LAYOUT_UNPACK
+Rozpakowywanie aktualizacji
+; Unpacking updates
+;
+LABEL_KEEPUNPACKED
+_Zachowowaj rozpakowane aktualizacje, je¿eli nie zosta³y zainstalowane:
+; _Keep unpacked updates if not installed automatically:
+;
+LABEL_UNPACK_TO_BASDEDIR
+Rozpakuj aktualizacje do ich _w³asnych podkatalogów:
+; Unpack updates into their own _named sub-directories:
+;
+LABEL_LOGFILE
+Je¿eli chcesz utworzyæ plik dziennik zdarzeñ _log, wpisz tutaj jego nazwê:
+; If you want to create a _log file, enter its name here:
+;
+LABEL_VERBOSE_LOG
+Do³±czanie dodatkowych informacji do pliku dziennika (Szczegó³owy dziennik):
+; Include e_xtra information in the log file (Verbose log):
+;
+LABEL_LAYOUT_ICONIFY
+Ikonizacja
+; Iconification
+;
+LABEL_ICONIFY_AS
+Gdy jest w trybie ikonizacji wy¶wietlaj program jako:
+; When iconif_ying the program, show it as an:
+;
+LABEL_START_ICONIFIED
+Start w trybie ikonizacji (zalecane):
+; S_tart iconified (recommended):
+;
+LABEL_CHOOSER_UPDATEWHEN
+Sprawdz aktualizacje aplikacji co:
+; Ch_eck for updates to applications every:
+;
+LABEL_CHOOSER_ATTIME
+_Co ile:
+; _At:
+;
+LABEL_CHOOSER_ONDAY
+_W dniu:
+; _On:
+;
+LABEL_UPDATE_SELF
+Wykonaj kontrolê automatycznej aktualizacji po uruchomieniu _rêcznym:
+; Perform Self-Update check when started _manually:
+;
+LABEL_KEEP_ARCHIVES
+Zachowaj archiwa aktualizacji:
+; _Keep downloaded archives:
+;
+LABEL_ARCHIVE_STORE
+P_rzechowuj ¶ci±gniete archiwa w:
+; S_tore downloaded archives here:
+;
+LABEL_NEXTSCAN
+Nastêpne wyszukiwanie w:
+; Next scan due at:
+;
+LABEL_NEVER_SCAN
+Niedozwolone planowanie wyszukania.
+; No scheduled scan permitted.
+;
+LABEL_NO_SCAN_DATE
+Nie ustawiono zaplanowanego wyszukania.
+; No scheduled scan has been set.
+;
+LABEL_SCAN_PAST
+Ostatnie zaplanowane wyszukanie zosta³o pominiête.
+; The last scheduled scan was missed.
+;
+LABEL_ALLOW_AUTOINSTALL
+Zezwól aplikacjom na samodzieln± instalacjê, je¿li to mo¿liwe:
+; _Allow applications to install themselves, if possible:
+;
+LABEL_DEBUG_AUTOINSTALL
+_Debug dla automatycznej instalacji:
+; _Debug automatic installation:
+;
+LABEL_ENABLE_ROLLBACK
+W³±cz funkcjê Wycofywania:
+; _Enable the RollBack feature:
+;
+LABEL_ROLLBACKDIR
+Przechowuj przestarza³e pliki w:
+; S_tore outdated files here:
+;
+CHOOSER_LABEL_NEVER
+Nigdy
+; Never
+;
+CHOOSER_LABEL_DAY
+Dzieñ
+; Day
+;
+CHOOSER_LABEL_WEEK
+Tydzieñ
+; Week
+;
+CHOOSER_LABEL_MONTH
+Miesi±c
+; Month
+;
+CHOOSER_LABEL_SUNDAY
+Niedziela
+; Sunday
+;
+CHOOSER_LABEL_MONDAY
+Poniedzia³ek
+; Monday
+;
+CHOOSER_LABEL_TUESDAY
+Wtorek
+; Tuesday
+;
+CHOOSER_LABEL_WEDNESDAY
+¦roda
+; Wednesday
+;
+CHOOSER_LABEL_THURSDAY
+Czwartek
+; Thursday
+;
+CHOOSER_LABEL_FRIDAY
+Pi±tek
+; Friday
+;
+CHOOSER_LABEL_SATURDAY
+Sobota
+; Saturday
+;
+CHOOSER_LABEL_1ST
+Pierwszy
+; 1st
+;
+CHOOSER_LABEL_2ND
+Drugi
+; 2nd
+;
+CHOOSER_LABEL_3RD
+Trzeci
+; 3rd
+;
+CHOOSER_LABEL_4TH
+Czwarty
+; 4th
+;
+CHOOSER_LABEL_5TH
+Pi±ty
+; 5th
+;
+CHOOSER_LABEL_6TH
+Szósty
+; 6th
+;
+CHOOSER_LABEL_7TH
+Siódmy
+; 7th
+;
+CHOOSER_LABEL_8TH
+Ósmy
+; 8th
+;
+CHOOSER_LABEL_9TH
+Dziewi±ty
+; 9th
+;
+CHOOSER_LABEL_10TH
+Dziesi±ty
+; 10th
+;
+CHOOSER_LABEL_11TH
+Jedenasty
+; 11th
+;
+CHOOSER_LABEL_12TH
+Dwunasty
+; 12th
+;
+CHOOSER_LABEL_13TH
+Trzynasty
+; 13th
+;
+CHOOSER_LABEL_14TH
+Czternasty
+; 14th
+;
+CHOOSER_LABEL_15TH
+Piêtnasty
+; 15th
+;
+CHOOSER_LABEL_16TH
+Szesnasty
+; 16th
+;
+CHOOSER_LABEL_17TH
+Siedemnasty
+; 17th
+;
+CHOOSER_LABEL_18TH
+Osiamnasty
+; 18th
+;
+CHOOSER_LABEL_19TH
+Dziewiêtnasty
+; 19th
+;
+CHOOSER_LABEL_20TH
+Dwudziesty
+; 20th
+;
+CHOOSER_LABEL_21ST
+Dwudziesty pierwszy
+; 21st
+;
+CHOOSER_LABEL_22ND
+Dwudziesty drugi
+; 22nd
+;
+CHOOSER_LABEL_23RD
+Dwudziesty trzeci
+; 23rd
+;
+CHOOSER_LABEL_24TH
+Dwudziesty czwarty
+; 24th
+;
+CHOOSER_LABEL_25TH
+Dwudziesty pi±ty
+; 25th
+;
+CHOOSER_LABEL_26TH
+Dwudziesty szósty
+; 26th
+;
+CHOOSER_LABEL_27TH
+Dwudziesty siódmy
+; 27th
+;
+CHOOSER_LABEL_28TH
+Dwudziesty ósmy
+; 28th
+;
+CHOOSER_LABEL_29TH
+Dwudziesty dziwi±ty
+; 29th
+;
+CHOOSER_LABEL_30TH
+Trzydziesty
+; 30th
+;
+CHOOSER_LABEL_31ST
+Trzydziesty pierwszy
+; 31st
+;
+CHOOSER_ICONIFYAS_ICON
+AppIcon
+; AppIcon
+;
+CHOOSER_ICONIFYAS_MENU
+AppMenu
+; AppMenu
+;
+CHOOSER_ICONIFYAS_DOCKY
+Dokuj apliacjê w AmiDock
+; AmiDock Docky
+;
+BUTTON_LABEL_ADDSERVER
+_Dodaj...
+; _Add...
+;
+BUTTON_LABEL_REMOVESERVER
+_Usuñ
+; _Remove
+;
+BUTTON_LABEL_SAVE
+_Zapisz
+; _Save
+;
+BUTTON_LABEL_USE
+_U¿yj
+; _Use
+;
+BUTTON_LABEL_CANCEL
+_Anuluj
+; _Cancel
+;
+BUTTON_LABEL_SCAN_NOW
+Wyszukaj teraz...
+; Scan no_w...
+;
+BUTTON_RUN_ROLLBACK
+_Uruchom Wycofaj...
+; _Run RollBack...
+;
+BUTTON_LABEL_OK
+_OK
+; _OK
+;
+HINTINFO_CHECK_WHEN
+Okre¶la, jak czêsto powinny byæ wykonywane zaplanowane wyszykiwanie.
+; Specify how often the scheduled scans should be performed.
+;
+HINTINFO_CHECK_TIME
+Okre¶la godzinê, o której powinny byæ wykonywane zaplanowane wyszukiwanie.
+; Specify the time at which any scheduled scans should be performed.
+;
+HINTINFO_CHECK_DAYORDATE
+Okre¶la, w którym dniu lub dacie powinno zostaæ wykonane zaplanowane wyszykiwanie.
+; Specify on which day or date the scheduled scans should be performed.
+;
+HINTINFO_UPDATE_SELF
+Sprawdza podczas uruchamiania, czy s± dostêpne nowe wersje AmiUpdate. Je¿elii ta opcja jest wy³±czona, wszelkie nowe wersje bêd± wy¶wietlane na g³ównej li¶cie podczas wyszukania.
+; Check to see if there are any newer versions of AmiUpdate when the program starts. With this option disabled, any new versions will be shown in the main list when scanning.
+;
+HINTINFO_ARCHIVE_STORE
+Ten katalog bêdzie u¿ywany do przechowywania wszystkich pobranych archiwów, Je¿eli zdecydujesz siê je zachowaæ. Bêdzie on równie¿ u¿ywany do przechowywania aktualizacji, których nie mo¿na zainstalowaæ automatycznie.
+; This directory will be used to store any downloaded archives if you choose to keep them. It will also be used to store updates that cannot be installed automatically.
+;
+HINTINFO_KEEP_ARCHIVES
+Zazwyczaj archiwa pobranych plików nie s± zachowywane. Ta funkcja umo¿liwia trwa³e przechowywanie kopii pliku i zapisanie go w okre¶lonym katalogu.
+; Normally the archives are not stored if the update installs itself successfully. This option allows you to always keep a copy of the archive in the directory shown below.
+;
+HINTINFO_SET_ARCHIVE_STORE
+Otwiera ¿±danie pliku i wybiera katalog, w którym maj± byæ przechowywane archiwa.
+; Open a file requester and pick the directory to store the archives in.
+;
+HINTINFO_SCAN_NOW
+Uruchomienie AmiUpdate i sprawdzenie dostêpno¶ci nowych aktualizacji.
+; Launch AmiUpdate and check for updates.
+;
+HINTINFO_SERVER_LIST
+Jest to lista serwerÃ³w, na ktÃ³rych bÄ™dÄ… wyszukiwane nowe aktualizacje.MoÅ¼esz je wyÅ‚Ä…czyÄ‡Â odznaczajÄ…c  zaznaczenie, bez usuwania ich z listy.
+; These are the servers that will be checked to see if any updates are available. You can also disable a server without removing it.
+;
+HINTINFO_ADD_SERVER
+Dodaje nowy serwer do listy.
+; Add a new server into the list.
+;
+HINTINFO_REMOVE_SERVER
+Usuwa aktualnie wybrane serwery z listy.
+; Remove the currently selected server from the list.
+;
+HINTINFO_ALLOW_AUTOINSTALL
+Niektóre aktualizacje mog± instalowaæ siê automatycznie. Mo¿esz kontrolowaæ t± opcjê tutaj.
+; Some updates may be able to install themselves automatically. You can control this option here.
+;
+HINTINFO_DEBUG_AUTOINSTALL
+Je¿li aktualizacja mo¿e zainstalowaæ siê automatycznie, postêp instalacji mo¿na wy¶wietliæ za pomoc± tej opcji.
+; If an update can automatically install itself, the progress of the installation can be shown with this option.
+;
+HINTINFO_ENABLE_ROLLBACK
+System  Wycofania pozwala na "niedokoñczenie" niektórych aktualizacji, je¿li to mo¿liwe, a pliki te s± przechowywane w katalogu pokazanym pon¿ej. Wy³±czenie tej opcji oznacza, ¿e ¿adna z aktualizacji nie mo¿e zostaæ "cofniêta".
+; The RollBack system allows some updates to be \"un-done\" if possible, and these files are stored in the directory shown below. Disabling this option means that none of the updates can be \"un-done\".
+;
+HINTINFO_ROLLBACK_DIR
+Je¿li Wycofanie jest w³±czony, stare wersje plików instalowanych automatycznie bêd± przechowywane tutaj.
+; If RollBack is enabled, the old versions of files being automatically installed will be stored here.
+;
+HINTINFO_SET_ROLLBACK_DIR
+Otwarcie ¿±dania pliku i ustawienie katalogu  Wycofania.
+; Open a file requester and set the RollBack directory.
+;
+HINTINFO_RUN_ROLLBACK
+Uruchom teraz narzêdzie Wycofania i utrzymaj bazê danych lub przywróæ poprzedni± aktualizacjê.
+; Run the RollBack tool now and maintain the database or restore a previous update.
+;
+HINTINFO_LOGFILE_NAME
+Mo¿na utworzyæ obszerny plik dziennika zawieraj±cy listê ró¿nych dzia³añ. Usuniêcie tej nazwy wy³±cza tworzenie tego dziennika.
+; An extensive log file can be created listing various actions. Clearing this name turns off the creation of that log.
+;
+HINTINFO_SET_LOGFILE_NAME
+Otwiera ¿adanie pliku i umo¿liwia wybranie ¶cie¿ki i nazwy pliku dziennika.
+; Open a file requester and choose the path and name of the log file.
+;
+HINTINFO_VERBOSE_LOG
+Podczas tworzenia pliku dziennika mo¿na do³±czyæ dodatkowe informacje. Ta opcja jest przydatna, gdy próbujemy okre¶liæ, dlaczego dana aktualizacja mog³a siê nie powie¶æ.
+; When creating a log file, some extra information can be included. This option is useful when trying to determine why a particular update may have failed.
+;
+HINTINFO_KEEP_UNPACKED
+Je¿li dana aktualizacja nie mo¿e zostaæ zainstalowana automatycznie, program zazwyczaj zaleca jej rêczn± instalacjê. Ta opcja umo¿liwia zapisanie archiwów, które mo¿na zainstalowaæ w pó¼niejszym czasie.
+; If a particular update cannot be automatically installed, you will be prompted to install it manually before the archive is deleted. This option allows the archive to be saved, which can then be installed later.
+;
+HINTINFO_UNPACK_TO_BASE_DIR
+W przypadku przechowywania archiwÃów aktualizacji, które ze wzglêdu na swój charakter nie mog± zostaæ zainstalowane automatycznie, Bêd± one przechowywane w okre¶lonym podkatalogu.
+; When storing archives of updates that cannot be installed automatically, it can be stored in an appropriately named sub-directory.
+;
+HINTINFO_ICONIFY_AS
+Podczas rêcznej ikonizacji AmiUpdate mo¿na wybraæ reprezentowanie ikonizowanego programu jako \"AppIcon\", "AppMenu\" lub "Docky\". (Docky nie jest dostêpny w AmigaOS 4.0)
+; When iconifying AmiUpdate manually, you can choose to represent the iconified program as an \"AppIcon\", an \"AppMenu\" or a \"Docky\". (Docky not available on AmigaOS 4.0)
+;
+HINTINFO_START_ICONIFIED
+Mo¿na wybraæ uruchamianie programu w stanie ikonizacji. W³±czenie tej opcji umo¿liwia automatyczne zaplanowane wyszukiwanie i bêdzie wykonywane automatycznie.
+; You can choose to start the program in its iconified state. Enabling this option allows scheduled scanning to be performed automatically.
+;
+TEXT_ENABLED
+W³±czone
+; Enabled
+;
+TEXT_DISABLED
+Wy³±czone
+; Disabled
+;
+TEXT_COLUMN_SAVENOTES
+Zapisz informacje o wydaniu
+; Save release info
+;
+BUTTON_LABEL_EDITSERVER
+_Edytuj...
+; _Edit...
+;
+TITLE_REQ_EDITSERVER
+Edytuj Serwer...
+; Edit Server...
+;
+REQ_BODY_EDITSERVER
+Zaktualizuj informacje o tym serwerze.
+; Please update the information for this server.
+;
+TEXT_LABEL_SERVER_ACTIVE
+Uwzglêdnij ten serwer podczas wyposzukiwania aktualizacji.
+; _Include this server when scanning for updates.
+;
+TEXT_LABEL_SAVE_RELNOTES
+Zapisz informacje o wydaniu z tego serwera.
+; _Save release info from updates on this server.
+;
+LABEL_STARTUP_SCAN
+Automatyczne wyszukanie aktywnych serwerów podczas uruchamiania.
+; Sca_n active servers automatically when starting.
+;
+HINTINFO_SCAN_AUTOMATICALLY
+Ta opcja kontroluje, czy lista aktywnych serwerów powinna byæ skanowana automatycznie podczas uruchamiania programu.
+; This option controls whether the active server list should be scanned automatically when the program starts.
+;
+HINTINFO_EDIT_SERVER
+Edycja aktualnie wybranego serwera na li¶cie.
+; Edit the currently selected server in the list.
+;
+TEXT_LABEL_UPDATE_SERVER
+U¿yj tego serwera do samodzielnej aktualizacji.
+; Use this server for self _update
+;
+LABEL_TEMP_DIR
+Katalog tymczasowy do rozpakowania.
+; Temporary directory for un_packing
+;
+HINTINFO_TEMP_DIR
+Ten katalog bêdzie u¿ywany do rozpakowywania archiwów przed instalacj±. Przechowywanie tego w RAM: zwolni miejsce na dysku twardym.
+; This directory will be used for unpacking archives prior to installation. Keeping this in RAM: will free up hard disk space.
+;
+HINTINFO_SET_TEMP_DIR
+Otwó³rz i wybierz katalog, który ma byæ u¿ywany jako katalog tymczasowy.
+; Open a file requester and pick the directory to use as a temporary directory.
+;
+HINTINFO_SERVER_UP
+Przesuñ aktualnie wybrany serwer w górê listy.
+; Move the currently selected server up in the list.
+;
+HINTINFO_SERVER_DOWN
+Przesuniêcie aktualnie wybranego serwera ni¿ej na li¶cie.
+; Move the currently selected server down in the list.
+;
