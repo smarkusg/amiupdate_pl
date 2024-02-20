@@ -1,0 +1,666 @@
+; amiupdate.cd
+; 
+; V2.2 (13.02.2011)
+; added MSG_REBOOT_NOW
+;
+; V2.3 (05.12.2011)
+; added MSG_STATUS_NO_DATABASE
+;
+; V2.15 (26.08.2012)
+; added MSG_LAST_UPDATED_ON
+;
+; V2.19 (10.11.2012)
+; added MSG_REQ_ATTEMPTING_TO_DECYPT
+; added MSG_LABEL_OF
+;
+; V2.27 (26.12.2012)
+; added MSG_REQ_REBOOT_REQUIRED
+; added MSG_SOFT
+; added MSG_HARD
+;
+; V2.33 (
+; added MSG_TITLE_PROGRESS
+;
+;
+MSG_HINTINFO_SCAN (//)
+Scan for available updates
+;
+MSG_HINTINFO_ABORTSCAN (//)
+Abort the current update scan
+;
+MSG_HINTINFO_UPDATELIST (//)
+Available updates
+;
+MSG_HINTINFO_UPDATE (//)
+Fetch selected updates
+;
+MSG_HINTINFO_ALLNONE (//)
+Select all or none of the above updates
+;
+MSG_HINTINFO_INFO (//)
+Show information of the selected update
+;
+MSG_HINTINFO_UPDATETO (//)
+Update to
+;
+MSG_HINTINFO_DOWNLOADED (//)
+This update was downloaded successfully,\n
+;
+MSG_HINTINFO_INSTALLED (//)
+and it was automatically installed.
+;
+MSG_HINTINFO_STORED (//)
+and it was stored for your attention.
+;
+MSG_HINTINFO_STORE_FAILED (//)
+but storing the update also failed.
+;
+MSG_HINTINFO_NO_SCRIPT (//)
+The update was not installed due to a missing AutoInstall script.
+;
+MSG_HINTINFO_WARNING (//)
+This update was not entirely successful.\n
+;
+MSG_HINTINFO_HASSCRIPT (//)
+The installation script encountered an error.
+;
+MSG_HINTINFO_PGPFAILED (//)
+PGP decryption failed, but
+;
+MSG_HINTINFO_UNARCFAILED (//)
+Unpacking failed, but
+;
+MSG_HINTINFO_FAILED (//)
+This update failed due to a error in the\ntransfer. It may succeed if you try again.
+;
+MSG_HINTINFO_ABORTED (//)
+The transfer was manually aborted.
+;
+MSG_HINTINFO_NOPASSPHRASE (//)
+No correct PGP passphrase was supplied.
+;
+MSG_BUTTON_OK (//)
+OK
+;
+MSG_BUTTON_CANCEL (//)
+_Cancel
+;
+MSG_BUTTON_SCAN (//)
+S_can
+;
+MSG_BUTTON_UPDATE (//)
+_Update
+;
+MSG_BUTTON_ABORT (//)
+Abort
+;
+MSG_BUTTON_INFO (//)
+_Info
+;
+MSG_BUTTON_THANKS (//)
+Thanks
+;
+MSG_BUTTONS_YESNO (//)
+Yes|No
+;
+MSG_BUTTON_SELECTALL (//)
+_Select All
+;
+MSG_BUTTON_SELECTNONE (//)
+_Select None
+;
+MSG_BUTTON_CONTINUE (//)
+Continue
+;
+MSG_BUTTON_CANCEL_TRANSFER (//)
+Cancel Transfer
+;
+MSG_BUTTON_USE (//)
+_Use
+;
+MSG_BUTTON_SAVE (//)
+_Save
+;
+MSG_BUTTON_CONNECT (//)
+_Connect
+;
+MSG_BUTTON_EDIT (//)
+_Edit
+;
+MSG_BUTTON_ADD (//)
+_Add
+;
+MSG_BUTTON_REMOVE (//)
+Remo_ve
+;
+MSG_BUTTON_REMOVE_ALL (//)
+Remove _All
+;
+MSG_BUTTONS_OKCANCEL (//)
+_OK|_Cancel
+;
+MSG_BUTTON_ROLLBACK (//)
+_Rollback
+;
+MSG_BUTTON_SEARCH (//)
+_Search
+;
+MSG_BUTTON_NEXT (//)
+Next _>
+;
+MSG_BUTTON_PREV (//)
+_< Previous
+;
+MSG_BUTTON_CLEANUP (//)
+_Purge...
+;
+MSG_BUTTONS_REBOOT_DEAMON (//)
+_Cancel|Reboot now|Remind me _later
+;
+MSG_LABEL_ACTIVITY (//)
+Activity
+;
+MSG_LABEL_DOWNLOADING (//)
+Downloading:   
+;
+MSG_LABEL_FILESIZE (//)
+File size:   
+;
+MSG_LABEL_ENTRIES_DIFFERENT (//)
+The two entries were different
+;
+MSG_LABEL_VERIFY_PASSPHRASE (//)
+Please verify your passphrase again
+;
+MSG_LABEL_PASSPHRASE_DEF1 (//)
+Here you will be asked to confirm your
+;
+MSG_LABEL_PASSPHRASE_DEF2 (//)
+PGP passphrase twice for verification.
+;
+MSG_LABEL_ENTER_PASSPHRASE (//)
+Enter passphrase
+;
+MSG_LABEL_ENTER_AGAIN (//)
+Enter again
+;
+MSG_LABEL_REMOTE_FILE (//)
+Remote file
+;
+MSG_LABEL_LOCAL_FILE (//)
+Local file
+;
+MSG_LABEL_DEPENDENCIES (//)
+Listed dependencies
+;
+MSG_LABEL_LOGIN_DETAILS (//)
+Enter the login details for:\n
+;
+MSG_LABEL_USERNAME (//)
+_Username
+;
+MSG_LABEL_PASSWORD (//)
+_Password
+;
+MSG_LABEL_OFFLINE_RESOURCE (//)
+Offline resource: %s
+;
+MSG_LABEL_STARTED (//)
+Started on: %s %s at %s
+;
+MSG_LABEL_PURGE_WHAT (//)
+Remove all dates that are:
+;
+MSG_LABEL_ROLLBACK_INFO (//)
+The following files will be restored:
+;
+MSG_LABEL_ROLLBACK_SEARCH (//)
+The following matches were found:
+;
+MSG_CHOOSER_1WEEK (//)
+older than one week
+;
+MSG_CHOOSER_1MONTH (//)
+older than one month
+;
+MSG_CHOOSER_6MONTHS (//)
+older than six months
+;
+MSG_CHOOSER_1YEAR (//)
+older than one year
+;
+MSG_STATUS_READY (//)
+Ready...
+;
+MSG_STATUS_LOCATING_AUTOINSTALL (//)
+Locating installation script....
+;
+MSG_STATUS_FILESTORED (//)
+File stored awaiting user action
+;
+MSG_STATUS_AUTOINSTALL_DETECTED (//)
+AutoInstall script detected, preparing to execute...
+;
+MSG_STATUS_AUTOINSTALL_SUCCESS (//)
+AutoInstall successfully completed
+;
+MSG_STATUS_SCANNING_ALL (//)
+Scanning for available updates...
+;
+MSG_STATUS_SYNC_WITH_SERVER (//)
+Synchronising with server: %s...
+;
+MSG_STATUS_SYNC_FAILED (//)
+Synchronisation with server failed
+;
+MSG_STATUS_SCAN_COMPLETE (//)
+Scan complete, found %ld applicable update(s)
+;
+MSG_STATUS_NO_UPDATES (//)
+No updates available
+;
+MSG_STATUS_FETCHING_UPDATES (//)
+Fetching update: %s (%ld of %ld)
+;
+MSG_STATUS_NO_UPDATES_SELECTED (//)
+No updates selected!
+;
+MSG_STATUS_UNARCHIVING_UPDATE (//)
+Unarchiving update...
+;
+MSG_STATUS_UPDATE_COMPLETE (//)
+Update complete
+;
+MSG_STATUS_ARCHIVE_SAVE_FAILED (//)
+Saving of archive failed: %s
+;
+MSG_STATUS_CONNECTING_TO (//)
+Connecting to: %s (%s) on port %ld..
+;
+MSG_STATUS_RESOLVE_FAILED (//)
+Failed to resolve server address
+;
+MSG_STATUS_LOGIN_CANCELLED (//)
+Login cancelled, updating aborted
+;
+MSG_STATUS_RETRYING (//)
+Retrying %s (%ld of %ld)
+;
+MSG_STATUS_DOWNLOADING (//)
+      Downloading %s...
+;
+MSG_STATUS_DOWNLOADING_FROM (//)
+Downloading from %s
+;
+MSG_STATUS_LOGGINGIN (//)
+Now logging in...
+;
+MSG_STATUS_REQUESTING (//)
+Requesting /%s
+;
+MSG_STATUS_OFFLINE (//)
+Network currently offline.
+;
+MSG_TITLE_INFOWIN (//)
+Information for: %s
+;
+MSG_TITLE_LOGONWIN (//)
+Logon Request
+;
+MSG_TITLE_MAPMANAGER (//)
+Mapping Manager
+;
+MSG_TITLE_COMPATIBILITY (//)
+Currently installed compatible applications
+;
+MSG_TITLE_IGNOREMANAGER (//)
+Ignored updates
+;
+MSG_TITLE_ROLLBACK_INFO (//)
+RollBack information
+;
+MSG_TITLE_ROLLBACK_SEARCH (//)
+Search results
+;
+MSG_REQ_NOAUTOINSTALL (//)
+\33cAutomatic installation of this application update cannot proceed\n\n\33cYou can install it manually from '%s'\n\33cwhich will be deleted when you clear this requester
+;
+MSG_REQ_SAVETORAM (//)
+\33cFile: \33i%s\n\n\33n\33cCannot unpack this for you\nWould you like to save this file to RAM: ?
+;
+MSG_REQ_NEWAMIUPDATE (//)
+\33cA newer version is available for download\nWould you like to fetch and install it?\n\nInstalled: %ld.%ld  Update: %ld.%ld
+;
+MSG_REQ_RESTART_AMIUPDATE (//)
+\33cAmiUpdate will now restart\nto run the new version.
+;
+MSG_REQ_DATABASE_PARSEERROR (//)
+\nError parsing database file\n\nLine %ld: %s\n
+;
+MSG_REQ_UPDATES_WAITING (//)
+\33cThere are %ld new updates waiting to be installed.\n\n\33cClick 'View' for a complete list
+;
+MSG_REQ_BUTTONS_UPDATES_WAITING (//)
+View|Later
+;
+MSG_REQ_CANCEL_UPDATE (//)
+\33cThe current update has been cancelled\n\nDo you wish to cancel all updates?
+;
+MSG_REQ_BUTTONS_CANCEL_UPDATE (//)
+No|Yes
+;
+MSG_REQ_NO_NETWORK (//)
+No active network connections were found. \n\nThe connection to the server has been aborted.\n
+;
+MSG_REQ_RESOLVE_FAILED (//)
+Connection to %s failed.\n\nThere may be a problem with your Internet connection.
+;
+MSG_REQ_WORKING_OFFLINE (//)
+The last attempt to connect to the Internet failed as there were no active network connections detected.\n
+;
+MSG_REQ_AUTOINSTALL_FAILED (//)
+\33cAt least one update could not be automatically installed\n\33c It has been unpacked and stored in '%s'\n\33cInstall the update(s) manually from there
+;
+MSG_REQ_NO_DOWNLOAD (//)
+\33cArchive: %s\n\nDownloading this update was not possible\nA problem with the URL was encountered.\n\n%s
+;
+MSG_REQ_SELECT_PATH_TO (//)
+Select path to %s
+;
+MSG_REQ_CHANGES_LOST (//)
+\33cThe changes made will be lost\n\nDo you really want to quit?
+;
+MSG_REQ_BUTTONS_CHANGES_LOST (//)
+No|OK
+;
+MSG_REQ_CHECKING_VERSION (//)
+ Checking for new version... 
+;
+MSG_REQ_INSTALL_EARLIER_VERSION (//)
+Do you really want to install this earlier version?
+;
+MSG_REQ_RESTORED_OK (//)
+ was successfully restored
+;
+MSG_REQ_ERROR_RESTORING (//)
+An error occurred restoring this component
+;
+MSG_REQ_CONFIRM_ROLLBACK_DATE (//)
+\33cYou are about to set your system back to:\n\n %s %s\n\n All previous updates up to, and including that date, will be reversed.\n\nAre you sure you want to do this?
+;
+MSG_REQ_BUTTONS_CONFIRM_DATE (//)
+Continue|_Cancel
+;
+MSG_REQ_ROLLBACK_WITH_ERRORS (//)
+RollBack complete, but some errors occurred
+;
+MSG_REQ_ROLLBACK_FATAL_ERROR (//)
+RollBack procedure aborted due to fatal error
+;
+MSG_REQ_ROLLBACK_NO_ERRORS (//)
+RollBack completed successfully without errors
+;
+MSG_REQ_ROLLBACK_REMOVED (//)
+The selected Rollback opportunity has been removed
+;
+MSG_REQ_ROLLBACK_REMOVED_ERROR (//)
+There was a problem removing the selected Rollback opportunity
+;
+MSG_REQ_CONFIRM_OPP_REMOVAL (//)
+You are about to remove a rollback opportunity\n\n\33cProceed?
+;
+MSG_REQ_CONFIRM_DATE_REMOVAL (//)
+\33cYou are about to remove a rollback date.\n\33cAll opportunities on this date will be lost.\n\n\33cProceed?
+;
+MSG_REQ_PURGE_CONFIRM (//)
+There are currently %ld date(s) ready to be purged.\n\nDo you really want these removed?\n\n
+;
+MSG_REQ_OPERATION_WITH_ERRORS (//)
+The operation did not complete without errors
+;
+MSG_REQ_ROLLBACK_DATE_OK (//)
+Rollback date removed
+;
+MSG_REQ_ENTER_PATTERN (//)
+Enter a pattern to match with
+;
+MSG_REQ_RESET_REQUIRED (//)
+\n\33cYou need to perform a %s so that the\n\33cchanges from the last update session take effect\n\n
+;
+MSG_REQ_SOFT_RESET (//)
+Soft Reboot
+;
+MSG_REQ_HARD_RESET (//)
+Hard Reset
+;
+MSG_REQ_REBOOT_IN (//)
+System is performing a %s in %ld seconds
+;
+MSG_REQ_PURGE_ROLLBACK (//)
+Removing RollBack dates is a permanent action. Once these\ndates have been removed, you cannot get them back again.\n\nRolling back to any of the dates removed will not be possible\nafter this purge completes.\n\n
+;
+MSG_REQ_PURGE_FAULTS (//)
+There was a problem with %ld RollBack dates\nwhich could not be removed. They may be protected\nfrom deletion, or in use by another program.
+;
+MSG_REQ_PURGE_NOTHING (//)
+Nothing will be purged as there are currently\nno RollBack dates which match this criteria.
+;
+MSG_REQ_RESTORE_SCRIPT (//)
+The associated restore script for the selected item\nwas not found in the specified location.\nRollBack is unable to restore this item.
+;
+MSG_DESCRIPTION_AVAILABLE (//)
+is available
+;
+MSG_DESCRIPTION_MANUAL (//)
+(Download and Install manually)
+;
+MSG_DESCRIPTION_FILESYSTEM (//)
+Used filesystem date for check
+;
+MSG_DESCRIPTION_NOTFOUND (//)
+Not found on path
+;
+MSG_DESCRIPTION_DETERMINED_BY_DATE (//)
+determined by date
+;
+MSG_VER_MISSING (//)
+Missing or incorrect version string
+;
+MSG_XMLINIT_FAILED (//)
+Failed to initialise XML object
+;
+MSG_ERROR_NOERROR (//)
+No Error
+;
+MSG_ERROR_NO_LOGIN_DETAILS (//)
+No logon details supplied
+;
+MSG_ERROR_CONNECTION_FAILED (//)
+Connection to server failed
+;
+MSG_ERROR_SAVE_TARGET_FAILED (//)
+Saving target file failed
+;
+MSG_ERROR_TARGET_TRUNCATED (//)
+Target file truncated
+;
+MSG_ERROR_INCORRECT_PROTOCOL (//)
+Incorrect protocol
+;
+MSG_ERROR_TRANSFER_FAILED (//)
+Transfer failed
+;
+MSG_ERROR_RESOLVE_FAILED (//)
+Failed to resolve server name
+;
+MSG_ERROR_TRANSFER_TIMEOUT (//)
+Transfer timeout exceeded
+;
+MSG_ERROR_NOT_FOUND_ON_PATH (//)
+Not found in path
+;
+MSG_REBOOT_TITLE (//)
+Newly Installed Updates
+;
+MSG_REBOOT_NONE (//)
+No reboot
+;
+MSG_REBOOT_SOFT (//)
+A Soft reset
+;
+MSG_REBOOT_HARD (//)
+A Hard reset
+;
+MSG_REBOOT_REQUIRED (//)
+%s will be required after this update is installed
+;
+MSG_UPDATETYPE_COMPONENT (//)
+OS Component
+;
+MSG_UPDATETYPE_EXTENSION (//)
+OS Extension
+;
+MSG_UPDATETYPE_APPLICATION (//)
+Application
+;
+MSG_COLUMNINFO_DATES (//)
+RollBack dates
+;
+MSG_COLUMNINFO_NAME (//)
+Name
+;
+MSG_COLUMNINFO_VERSION (//)
+Version
+;
+MSG_COLUMNINFO_UPDATEON (//)
+Updated on
+;
+MSG_COLUMNINFO_DESTINATION (//)
+Destination
+;
+MSG_COLUMNINFO_PATH (//)
+Path
+;
+MSG_MENU_PROJECT (//)
+Project 
+;
+MSG_MENU_SCAN (//)
+Scan
+;
+MSG_MENU_UPDATE (//)
+Update
+;
+MSG_MENU_ABOUT (//)
+About...
+;
+MSG_MENU_HELP (//)
+Help...
+;
+MSG_MENU_QUIT (//)
+Quit
+;
+MSG_MENU_UPDATES (//)
+Updates
+;
+MSG_MENU_INFORMATION (//)
+Information
+;
+MSG_MENU_SELECTALLNONE (//)
+Select All/None
+;
+MSG_MENU_IGNORE_UPDATE (//)
+Ignore this update
+;
+MSG_MENU_MANAGE_IGNORES (//)
+Manage Ignores...
+;
+MSG_MENU_ADD_MAPPING (//)
+Add Mapping...
+;
+MSG_MENU_MANAGE_MAPPING (//)
+Manage Mappings...
+;
+MSG_MENU_COMPATIBLE (//)
+Compatible Applications...
+;
+MSG_MENU_TOOLTYPES (//)
+Settings
+;
+MSG_MENU_NO_AUTO_UPDATE (//)
+Allow automatic updates
+;
+MSG_MENU_VERBOSE (//)
+Add extra info to Log
+;
+MSG_MENU_UNPACKTOBASEDIR (//)
+Unpack to named directory
+;
+MSG_MENU_SERVERS (//)
+Servers
+;
+MSG_MENU_SHOW (//)
+Uniconify...
+;
+MSG_MENU_SCAN_NOW (//)
+Scan for updates
+;
+MSG_MENU_OPEN_PREFS (//)
+Open preferences...
+;
+MSG_MENU_RUN_ROLLBACK(//)
+Start System RollBack...
+;
+MSG_MENU_ABORT_SCAN (//)
+Abort current scan
+;
+MSG_NOTIFY_UPDATES_FOUND (//)
+Updates have been found and are available for this computer.\n\nDouble-click here or the docky to see the list.
+;
+MSG_REBOOT_NOW (//)
+Reboot Now
+;
+; 2.3 additions
+MSG_STATUS_NO_DATABASE (//)
+Server did not return a Database
+;
+; 2.15 additions
+MSG_LAST_UPDATED_ON (//)
+Last Updated On:
+;
+; 2.19 additions
+MSG_REQ_ATTEMPTING_TO_DECYPT (//)
+Attempting to decrypt %s
+;
+; used in the download window for Size: xxx of xxx
+MSG_LABEL_OF (//)
+of
+;
+; 2.27 additions
+MSG_REQ_REBOOT_REQUIRED (//)
+A %s-reset is required before running the new version of AmiUpdate.\n\n\33c\33bThe reboot will happen after pressing %s.
+;
+MSG_SOFT (//)
+soft
+;
+MSG_HARD (//)
+hard
+;
+; 2.33 additions
+MSG_TITLE_PROGRESS (//)
+Progress
+;
+; 2.48 additions
+MSG_REQ_FAILED_TO_DELETE (//)
+Failed to remove file:\n%s
+;
+; 2.51 addition
+MSG_STATUS_NO_SERVERS (//)
+No servers available
+;
+; 2.54 additions (also changed MSG_DESCRIPTION_DETERMINED_BY_DATE)
+MSG_COLUMN_PACKAGE (//)
+Package
+;
+MSG_COLUMN_LAST_CHANGED (//)
+Last Changed
+;

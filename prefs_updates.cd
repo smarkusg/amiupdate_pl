@@ -1,0 +1,442 @@
+;
+; Version History
+;
+; 53.5 Added the CHOOSER_LABEL_xx strings to localise the date for scheduled scans.
+;
+; 53.6 Fixed an erronous semi-colon after the string definition.
+;
+; 53.7 added TEXT_ENABLED
+;      added TEXT_DISABLED
+;      added TEXT_COLUMN_SAVENOTES
+;      added BUTTON_LABEL_EDITSERVER
+;      added TITLE_REQ_EDITSERVER
+;      added REQ_BODY_EDITSERVER
+;      added TEXT_LABEL_SERVER_ACTIVE
+;      added TEXT_LABEL_SAVE_RELNOTES
+;      renamed TITLE_REQ_TITLE to TITLE_REQ_ADDSERVER
+;
+; 53.8 added LABEL_STARTUP_SCAN
+;
+; 53.9 added HINTINFO_SCAN_AUTOMATICALLY
+;
+; 53.10 added TEXT_LABEL_UPDATE_SERVER
+;
+; 53.11 changed LABEL_ARCHIVE_STORE
+;       added LABEL_TEMP_DIR
+;       added HINTINFO_TEMP_DIR
+;       added HINTINFO_SET_TEMP_DIR
+;       added HINTINFO_SERVER_UP
+;       added HINTINFO_SERVER_DOWN
+;
+;
+;
+TITLE_SCREEN_TITLE (//)
+Online updates screen
+;
+TITLE_WINDOW_TITLE (//)
+Online update preferences
+;
+TITLE_REQ_ADDSERVER (//)
+Add Server...
+;
+TITLE_REQ_SELECTDIR (//)
+Select Directory...
+;
+TITLE_REQ_SELECTFILE (//)
+Select File...
+;
+REQ_BODY_ABOUT (//)
+Online updates preferences editor\n\nVersion %ld.%ld (%s)\n\nCopyright %s
+;
+REQ_BODY_AU_START_FAILED (//)
+Failed to start AmiUpdate automatically,\nplease start it manually and scan again.
+;
+REQ_BODY_ADDSERVER (//)
+Enter the name of the server you wish to add.
+;
+REQ_BODY_SAVE_FAILED (//)
+Saving the file failed because\n\n%s
+;
+REQ_BUTTONS_ADDSERVER (//)
+_Add|_Cancel
+;
+TEXT_TAB_UPDATES (//)
+U_pdates
+;
+TEXT_TAB_SERVERS (//)
+Ser_vers
+;
+TEXT_TAB_ROLLBACK (//)
+_Install and RollBack
+;
+TEXT_TAB_GENERAL (//)
+_General
+;
+TEXT_COLUMN_ACTIVE (//)
+Active
+;
+TEXT_COLUMN_SERVER (//)
+Server Name
+;
+LABEL_LAYOUT_ROLLBACK (//)
+RollBack
+;
+LABEL_LAYOUT_INSTALL (//)
+Update Installation
+;
+LABEL_LAYOUT_LOGGING (//)
+Event logging
+;
+LABEL_LAYOUT_UNPACK (//)
+Unpacking updates
+;
+LABEL_KEEPUNPACKED (//)
+_Keep unpacked updates if not installed automatically:
+;
+LABEL_UNPACK_TO_BASDEDIR (//)
+Unpack updates into their own _named sub-directories:
+;
+LABEL_LOGFILE (//)
+If you want to create a _log file, enter its name here:
+;
+LABEL_VERBOSE_LOG (//)
+Include e_xtra information in the log file (Verbose log):
+;
+LABEL_LAYOUT_ICONIFY (//)
+Iconification
+;
+LABEL_ICONIFY_AS (//)
+When iconif_ying the program, show it as an:
+;
+LABEL_START_ICONIFIED (//)
+S_tart iconified (recommended):
+;
+LABEL_CHOOSER_UPDATEWHEN (//)
+Ch_eck for updates to applications every:
+;
+LABEL_CHOOSER_ATTIME (//)
+_At:
+;
+LABEL_CHOOSER_ONDAY (//)
+_On:
+;
+LABEL_UPDATE_SELF (//)
+Perform Self-Update check when started _manually:
+;
+LABEL_KEEP_ARCHIVES (//)
+_Keep downloaded archives:
+;
+LABEL_ARCHIVE_STORE (//)
+S_tore downloaded archives here:
+;
+LABEL_NEXTSCAN (//)
+Next scan due at:
+;
+LABEL_NEVER_SCAN (//)
+No scheduled scan permitted.
+;
+LABEL_NO_SCAN_DATE (//)
+No scheduled scan has been set.
+;
+LABEL_SCAN_PAST (//)
+The last scheduled scan was missed.
+;
+LABEL_ALLOW_AUTOINSTALL (//)
+_Allow applications to install themselves, if possible:
+;
+LABEL_DEBUG_AUTOINSTALL (//)
+_Debug automatic installation:
+;
+LABEL_ENABLE_ROLLBACK (//)
+_Enable the RollBack feature:
+;
+LABEL_ROLLBACKDIR (//)
+S_tore outdated files here:
+;
+CHOOSER_LABEL_NEVER (//)
+Never
+;
+CHOOSER_LABEL_DAY (//)
+Day
+;
+CHOOSER_LABEL_WEEK (//)
+Week
+;
+CHOOSER_LABEL_MONTH (//)
+Month
+;
+CHOOSER_LABEL_SUNDAY (//)
+Sunday
+;
+CHOOSER_LABEL_MONDAY (//)
+Monday
+;
+CHOOSER_LABEL_TUESDAY (//)
+Tuesday
+;
+CHOOSER_LABEL_WEDNESDAY (//)
+Wednesday
+;
+CHOOSER_LABEL_THURSDAY (//)
+Thursday
+;
+CHOOSER_LABEL_FRIDAY (//)
+Friday
+;
+CHOOSER_LABEL_SATURDAY (//)
+Saturday
+;
+CHOOSER_LABEL_1ST (//)
+1st
+;
+CHOOSER_LABEL_2ND (//)
+2nd
+;
+CHOOSER_LABEL_3RD (//)
+3rd
+;
+CHOOSER_LABEL_4TH (//)
+4th
+;
+CHOOSER_LABEL_5TH (//)
+5th
+;
+CHOOSER_LABEL_6TH (//)
+6th
+;
+CHOOSER_LABEL_7TH (//)
+7th
+;
+CHOOSER_LABEL_8TH (//)
+8th
+;
+CHOOSER_LABEL_9TH (//)
+9th
+;
+CHOOSER_LABEL_10TH (//)
+10th
+;
+CHOOSER_LABEL_11TH (//)
+11th
+;
+CHOOSER_LABEL_12TH (//)
+12th
+;
+CHOOSER_LABEL_13TH (//)
+13th
+;
+CHOOSER_LABEL_14TH (//)
+14th
+;
+CHOOSER_LABEL_15TH (//)
+15th
+;
+CHOOSER_LABEL_16TH (//)
+16th
+;
+CHOOSER_LABEL_17TH (//)
+17th
+;
+CHOOSER_LABEL_18TH (//)
+18th
+;
+CHOOSER_LABEL_19TH (//)
+19th
+;
+CHOOSER_LABEL_20TH (//)
+20th
+;
+CHOOSER_LABEL_21ST (//)
+21st
+;
+CHOOSER_LABEL_22ND (//)
+22nd
+;
+CHOOSER_LABEL_23RD (//)
+23rd
+;
+CHOOSER_LABEL_24TH (//)
+24th
+;
+CHOOSER_LABEL_25TH (//)
+25th
+;
+CHOOSER_LABEL_26TH (//)
+26th
+;
+CHOOSER_LABEL_27TH (//)
+27th
+;
+CHOOSER_LABEL_28TH (//)
+28th
+;
+CHOOSER_LABEL_29TH (//)
+29th
+;
+CHOOSER_LABEL_30TH (//)
+30th
+;
+CHOOSER_LABEL_31ST (//)
+31st
+;
+CHOOSER_ICONIFYAS_ICON (//)
+AppIcon
+;
+CHOOSER_ICONIFYAS_MENU (//)
+AppMenu
+;
+CHOOSER_ICONIFYAS_DOCKY (//)
+AmiDock Docky
+;
+BUTTON_LABEL_ADDSERVER (//)
+_Add...
+;
+BUTTON_LABEL_REMOVESERVER (//)
+_Remove
+;
+BUTTON_LABEL_SAVE (//)
+_Save
+;
+BUTTON_LABEL_USE (//)
+_Use
+;
+BUTTON_LABEL_CANCEL (//)
+_Cancel
+;
+BUTTON_LABEL_SCAN_NOW (//)
+Scan no_w...
+;
+BUTTON_RUN_ROLLBACK (//)
+_Run RollBack...
+;
+BUTTON_LABEL_OK (//)
+_OK
+;
+HINTINFO_CHECK_WHEN (//)
+Specify how often the scheduled scans should be performed.
+;
+HINTINFO_CHECK_TIME (//)
+Specify the time at which any scheduled scans should be performed.
+;
+HINTINFO_CHECK_DAYORDATE (//)
+Specify on which day or date the scheduled scans should be performed.
+;
+HINTINFO_UPDATE_SELF (//)
+Check to see if there are any newer versions of AmiUpdate when the program starts. With this option disabled, any new versions will be shown in the main list when scanning.
+;
+HINTINFO_ARCHIVE_STORE (//)
+This directory will be used to store any downloaded archives if you choose to keep them. It will also be used to store updates that cannot be installed automatically.
+;
+HINTINFO_KEEP_ARCHIVES (//)
+Normally the archives are not stored if the update installs itself successfully. This option allows you to always keep a copy of the archive in the directory shown below.
+;
+HINTINFO_SET_ARCHIVE_STORE (//)
+Open a file requester and pick the directory to store the archives in.
+;
+HINTINFO_SCAN_NOW (//)
+Launch AmiUpdate and check for updates.
+;
+HINTINFO_SERVER_LIST (//)
+These are the servers that will be checked to see if any updates are available. You can also disable a server without removing it.
+;
+HINTINFO_ADD_SERVER (//)
+Add a new server into the list.
+;
+HINTINFO_REMOVE_SERVER (//)
+Remove the currently selected server from the list.
+;
+HINTINFO_ALLOW_AUTOINSTALL (//)
+Some updates may be able to install themselves automatically. You can control this option here.
+;
+HINTINFO_DEBUG_AUTOINSTALL (//)
+If an update can automatically install itself, the progress of the installation can be shown with this option.
+;
+HINTINFO_ENABLE_ROLLBACK (//)
+The RollBack system allows some updates to be \"un-done\" if possible, and these files are stored in the directory shown below. Disabling this option means that none of the updates can be \"un-done\".
+;
+HINTINFO_ROLLBACK_DIR (//)
+If RollBack is enabled, the old versions of files being automatically installed will be stored here.
+;
+HINTINFO_SET_ROLLBACK_DIR (//)
+Open a file requester and set the RollBack directory.
+;
+HINTINFO_RUN_ROLLBACK (//)
+Run the RollBack tool now and maintain the database or restore a previous update.
+;
+HINTINFO_LOGFILE_NAME (//)
+An extensive log file can be created listing various actions. Clearing this name turns off the creation of that log.
+;
+HINTINFO_SET_LOGFILE_NAME (//)
+Open a file requester and choose the path and name of the log file.
+;
+HINTINFO_VERBOSE_LOG (//)
+When creating a log file, some extra information can be included. This option is useful when trying to determine why a particular update may have failed.
+;
+HINTINFO_KEEP_UNPACKED (//)
+If a particular update cannot be automatically installed, you will be prompted to install it manually before the archive is deleted. This option allows the archive to be saved, which can then be installed later.
+;
+HINTINFO_UNPACK_TO_BASE_DIR (//)
+When storing archives of updates that cannot be installed automatically, it can be stored in an appropriately named sub-directory.
+;
+HINTINFO_ICONIFY_AS (//)
+When iconifying AmiUpdate manually, you can choose to represent the iconified program as an \"AppIcon\", an \"AppMenu\" or a \"Docky\". (Docky not available on AmigaOS 4.0)
+;
+HINTINFO_START_ICONIFIED (//)
+You can choose to start the program in its iconified state. Enabling this option allows scheduled scanning to be performed automatically.
+;
+; 53.7 additions
+TEXT_ENABLED (//)
+Enabled
+;
+TEXT_DISABLED (//)
+Disabled
+;
+TEXT_COLUMN_SAVENOTES (//)
+Save release info
+;
+BUTTON_LABEL_EDITSERVER (//)
+_Edit...
+;
+TITLE_REQ_EDITSERVER (//)
+Edit Server...
+;
+REQ_BODY_EDITSERVER (//)
+Please update the information for this server.
+;
+TEXT_LABEL_SERVER_ACTIVE (//)
+_Include this server when scanning for updates.
+;
+TEXT_LABEL_SAVE_RELNOTES (//)
+_Save release info from updates on this server.
+;
+; 53.8 additions
+LABEL_STARTUP_SCAN (//)
+Sca_n active servers automatically when starting.
+;
+; 53.9 additions
+HINTINFO_SCAN_AUTOMATICALLY (//)
+This option controls whether the active server list should be scanned automatically when the program starts.
+;
+HINTINFO_EDIT_SERVER (//)
+Edit the currently selected server in the list.
+;
+; 53.10 additions
+TEXT_LABEL_UPDATE_SERVER (//)
+Use this server for self _update
+;
+; 53.11 additions
+LABEL_TEMP_DIR (//)
+Temporary directory for un_packing
+;
+HINTINFO_TEMP_DIR (//)
+This directory will be used for unpacking archives prior to installation. Keeping this in RAM: will free up hard disk space.
+;
+HINTINFO_SET_TEMP_DIR (//)
+Open a file requester and pick the directory to use as a temporary directory.
+;
+HINTINFO_SERVER_UP (//)
+Move the currently selected server up in the list.
+;
+HINTINFO_SERVER_DOWN (//)
+Move the currently selected server down in the list.
+;
